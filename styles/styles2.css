@@ -5,7 +5,7 @@ main {
         "nav nav"
         "aside article"
         "footer footer";
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 0fr 3fr;
 }
 
 header { /**/
@@ -19,20 +19,12 @@ header { /**/
 }
 
 nav { /**/
-    text-align: center;
+    text-align: justify;
     background-color: rgba(200, 217, 253, 0.664);
-    font-size: 25px;
+    font-size: 15px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     grid-area: nav;
-}
-
-aside { /**/
-    text-align: justify;
-    background-color: rgba(155, 243, 206, 0.48);
-    left: 0;
-    padding: 0 3.5em;
-    grid-area: aside;
 }
 
 article { /**/
